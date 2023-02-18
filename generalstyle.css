@@ -92,7 +92,7 @@ body{
     width: 0;
     position: absolute;
     top: 28px;
-    z-index: ;
+    /* z-index: ; */
     border-top: 15px solid transparent;
     border-bottom:15px solid transparent ;
     border-right: 15px solid #fff;
