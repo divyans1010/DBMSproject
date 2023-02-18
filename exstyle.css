@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: auto;
+    font-family:'poppins',sans-serif;
+  }
+
+  body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/house.jpg) ; 
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+   }
+
+ul{
+    float: top left;
+    list-style-type: none;
+    margin: top 5px;
+  }
+  
+  ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 10px;
+  }
+  
+  ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    transition: 0.4s ease;
+  }
+  
+  ul li a:hover{
+    background-color: #fff;
+    color: #000000;
+  }
+  
+  .main{
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+
+  .gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img-box{
+    width: 100px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 50px;
+    background: url(images/bookcvr.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+  .img-box:nth-child(2){
+    background: url(images/anch.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img-box:nth-child(3){
+    background: url(images/epic2.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img-box:nth-child(4){
+    background: url(images/mars.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img-box:nth-child(5){
+    background: url(images/designers.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img-box:nth-child(6){
+    background: url(images/light.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img-box:nth-child(7){
+    background: url(images/cul.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img-box:nth-child(8){
+    background: url(images/music.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img-box:nth-child(9){
+    background: url(images/bhar.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .image-box h3{
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+  }
+
+  .img-box:hover{
+    width: 300px;
+    cursor: pointer;
+
+  }
+
+  .img-box:hover h3{
+    opacity: 1;
+    bottom: 25px;
+  }
+  
+  

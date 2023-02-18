@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: auto;
+    font-family: Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/house.jpg) ; 
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    font-size: 14px;
+   }
+
+   .container{
+    width: 50%;
+    margin: 50px auto;
+
+   }
+
+ul{
+    float: top left;
+    list-style-type: none;
+    margin: top 5px;
+  }
+  
+  ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 10px;
+  }
+  
+  ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    transition: 0.4s ease;
+  }
+  
+  ul li a:hover{
+    background-color: #fff;
+    color: #000000;
+  }
+  
+  .main{
+    max-width: 1200px;
+    margin: auto;
+  }
+
+.contact-box{
+  background: #fff;
+  display: flex;
+}
+
+.contact-left{
+  flex-basis: 60%;
+  padding: 40px 60px;
+}
+
+
+h1{
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.container p{
+  margin-bottom: 40px;
+}
+
+.input-row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-row .input-group{
+ flex-basis: 45%;
+}
+
+input{
+  width: 100% ;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  padding-bottom: 5px;
+
+}
+
+button{
+  background: blue;
+  width: 100px;
+  border: none;
+   outline: none;
+   color: #fff;
+   height: 35px;
+   border-radius: 30px;
+   margin-top: 20px;
+   
+}
+
